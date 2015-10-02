@@ -1,4 +1,42 @@
-#id {
-background-color: #FFFF00;
+#BigBird {
+	background-color: 5bc0de;
 
 }
+
+#Header {
+	color: #5bc0de;	
+	background-color:#FFFF00;
+}
+
+#firstRow{
+	margin-left: 0px;
+} 
+
+div.container {
+	margin-left: 50px;
+}
+
+#secondColumn {
+	padding-top: 100px;
+	font-size: 30px;
+}
+#secondRow {
+	margin: 50px auto 0px auto;
+
+
+}
+
+#buttonRow {
+	margin: 50px auto 0px auto
+}
+	
+}
+.img-responsive: {
+	height: 50px;
+	width: 50px;
+	border: 10px solid #8AC007;
+}
+
+
+
+

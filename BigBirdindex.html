@@ -8,14 +8,38 @@
 </head>
 
 <body id="BigBird">
-<h1 class="jumbotron"></h1>
-	
+<h1 id ="Header">BIG BIRD</h1>
 
-	<input type='text' id ="firstInput" onkeydown="if (event.keyCode == 13) document.getElementById('firstButton').click()"></input>
+<div class="container">
+  <div class="row" id="firstRow">
+    <div class="col-md-6" id="picRow">
+     <img src="http://i.imgur.com/XLpVCP6.png" class="img-responsive" alt="Big Bird Face" id="BigFace" width="500" height="500">
+    </div>
+    <div class="col-md-6" id="secondColumn">
+      <ul>
+      	<li>Name: Big Bird</li>
+      	<li>Breed: Quarterhorse</li>
+      	<li>Color: Palomino</li>
+      	<li>Age: 10</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="secondRow">
+	<div class="col-md-3"><img src="http://i.imgur.com/ke4nwMv.jpg" class="img-responsive" alt="Riding" 	id="Ride"></div>
+	<div class="col-md-3"><img src="http://i.imgur.com/apesXDv.png" class="img-responsive" alt="			moreRiding" id="moreRide"></div>
+	<div class="col-md-3"><img src="http://i.imgur.com/p7aLEfR.png" class="img-responsive" alt="			moreRiding" id="moreRide"></div>
+	<div class="col-md-3"><img src="http://i.imgur.com/9k2FJ1J.png" class="img-responsive" alt="			moreRiding" id="moreRide"></div>	
+
+</div>
+
+<div class="row" id="buttonRow">
+<div class="col-md-12">
 	
-	<button type="button"  id="firstButton" class="btn btn-default" onclick="myFunction();">Submit</button>
-	
- 
+	<button type="button"  id="firstButton" class="btn btn-default" style="margin-top:" onclick="myFunction();">Add One</button>
+	</div>
+ </div>
 
 </body>
 
